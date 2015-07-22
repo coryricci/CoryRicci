@@ -1,0 +1,110 @@
+body{
+	margin: 0;
+	font-size: 100%;
+	font: 1.15em/1.3 'Oxygen', 'Helvetica',arial, sans-serif;
+	font-weight: 300;
+}
+/*-----TEXT----*/
+h1 {
+	font:2.5em/1 'Oxygen','Helvetica',arial,sans-serif;
+	font-weight: 400;
+	text-transform: uppercase;
+	text-align: center;
+}
+h2 {
+	font: 1.35em/1 'Oxygen', 'Helvetica', arial, sans-serif;
+	font-weight: 400;
+	text-align: center;
+}
+/*-------NAV-----*/
+nav{
+	height: 3em;
+	line-height: 2.3em;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 600;
+	display: inline-block;
+	width: 100%;
+	background: rgba(0,0,0,0.55);
+	border: 0;
+	font-family: 'Oxygen','Helvetica',arial,sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	/*Bret, do I need this webkit part?*/
+	-webkit-transform: translateZ(0);
+}
+nav.nav_closed{
+	overflow: hidden;
+}
+/*------Nav_menu------*/
+a#menu {
+	float: right;
+	border: 1px solid #ccc;
+	color: grey;
+	width:5em;
+	margin-top: 5px;
+	margin-right: 15px;
+	font-weight: 300;
+}
+a#menu:hover {
+	background: rgba(255,255,255,0.4);
+	color: #333;
+	font-weight: 600;
+}
+/*---navlist---*/
+ul#navlist{
+	clear: right;
+	font-weight: 300;
+}
+nav.nav_closed ul#navlist{
+	display: none;
+}
+nav.nav_open {
+	overflow: visible;
+}
+nav.nav_open ul#navlist{
+	display: block;
+}
+nav ul#navlist li a {
+	display: black;
+	width: 100%;
+	height: 100%;
+	border-top: 1px #ccc solid;
+	color: #FFE3CD;
+	text-decoration: none;
+}
+nav ul#navlist li a:hover {
+	background: #009ee6;
+	color: #fff;
+	text-decoration: none;
+}
+/*-----SECTION------*/
+section {
+	background:red; 
+}
+section#page-header {
+	height: 100vh;
+	width: 100%;
+	background: #ccc (pagebackround1.jpeg) no-repeat center center;
+	background-size: cover;
+	color: #000;
+	display: table;
+}
+
+section#page-header header {
+	width: 100%;
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+}
+section#page-header header h1 {
+	font-size: 4em;
+	font-weight: 400;
+	line-height: 1em;
+}
+section#page-header header h2 {
+	font-size: 1.45em;
+	text-transform: uppercase;
+	font-weight: 300;
+}
