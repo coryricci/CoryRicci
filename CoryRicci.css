@@ -46,6 +46,8 @@ a#menu {
 	margin-top: 5px;
 	margin-right: 15px;
 	font-weight: 300;
+	margin-bottom: 6px;
+
 }
 a#menu:hover {
 	background: rgba(255,255,255,0.4);
@@ -62,12 +64,17 @@ nav.nav_closed ul#navlist{
 }
 nav.nav_open {
 	overflow: visible;
+	background: rgba(0,0,0,0.85);
+}
+nav.nav_open a#menu {
+	color: #333;
+	background: #999;
 }
 nav.nav_open ul#navlist{
 	display: block;
 }
 nav ul#navlist li a {
-	display: black;
+	display: block;
 	width: 100%;
 	height: 100%;
 	border-top: 1px #ccc solid;
@@ -78,15 +85,16 @@ nav ul#navlist li a:hover {
 	background: #009ee6;
 	color: #fff;
 	text-decoration: none;
+
 }
 /*-----SECTION------*/
 section {
-	background:red; 
+	background: #DEB887; 
 }
 section#page-header {
 	height: 100vh;
 	width: 100%;
-	background: #ccc (pagebackround1.jpeg) no-repeat center center;
+	background: #ccc (<img src="http://i280.photobucket.com/albums/kk187/Cory_Ricci/pagebackround1_zps3cpoetof.jpeg" />) no-repeat center center;
 	background-size: cover;
 	color: #000;
 	display: table;
@@ -107,4 +115,50 @@ section#page-header header h2 {
 	font-size: 1.45em;
 	text-transform: uppercase;
 	font-weight: 300;
+}
+/* section.page-content */
+section.page-content div{
+	width: 85%;
+	max-width: 1024px;
+	margin: 3em auto;
+	padding-top: 4em; /* Keeps h1 away from navbar at top*/
+}
+section.page-content article {
+	margin-top: 1em;
+	background: url(break.pdf)no-repeat top center;
+	padding-top: 30px;
+	background-size: 60%;
+}
+/*Profile*/
+section#profile div{
+	margin-top: 0;
+}
+/*skills*/
+section#skills ul{
+	width: 60%;
+	margin: 4em auto;
+	padding: 1em auto;
+	overflow: hidden;
+}
+section#skills ul li {
+	float: left;
+	width: 40%;
+	padding: 5%;
+}
+section#skills ul li img {
+	display: block;
+	width: 100%;
+	margin: auto; 
+}
+/* Contact Section */
+section#contact {
+    text-align: center;
+    background: red;
+    border-bottom: 4em #232323 solid;
+}
+section#contact ul li {
+	float: left;
+	width: 20%;
+	max-width: 60px;
+	margin: auto;
 }
