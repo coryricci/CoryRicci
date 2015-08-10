@@ -147,8 +147,8 @@ section#skills ul li {
 }
 section#skills ul li img {
 	display: block;
-	width: 100%;
-	margin: auto; 
+	width: 80px;
+	margin: auto;
 }
 /* Contact Section */
 section#contact {
@@ -158,7 +158,13 @@ section#contact {
 }
 section#contact ul li {
 	float: left;
-	width: 20%;
 	max-width: 60px;
+	margin: auto;
+	height: 120px;
+    width: auto;
+}
+section#contact ul li a img{
+	display: block;
+	width: 80px;
 	margin: auto;
 }
