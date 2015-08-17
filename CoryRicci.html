@@ -25,7 +25,6 @@
 				<h2>Web Developer</h2>
 			</header>
 		</section>
-
 		<!--Profile-->
 		<section id "profile" class = "page-content">
 			<div>
@@ -86,19 +85,16 @@
                 </article>
 			</div>
 		</section>
-			
-	    
-		
-		<script type="text/javascript" src="jsresume2.js">
+		<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+		<script type="text/javascript">
 		$(document).ready(function() {
-		  $("#menu").click(fuction() {
-		     $("nav.nav_closed").toggleClass("nav_open");
-
-		});
-	 $("nav ul li a").click(function() {
-        $("nav.nav_open").removeClass("nav_open");
-	 });
-	});
+			$("#menu").click(function() {
+		     	$("nav.nav_closed").toggleClass("nav_open");
+			});
+	 		$("nav ul li a").click(function() {
+        		$("nav.nav_open").removeClass("nav_open");
+	 		});
+		});		
 	</script>
 	<noscript>
 		<ul id="mainnav">
