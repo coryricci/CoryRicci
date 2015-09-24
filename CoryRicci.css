@@ -134,6 +134,10 @@ section#profile div{
 	margin-top: 0;
 }
 /*skills*/
+.container img {
+	width: 20%;
+	height: auto;
+}
 section#skills ul{
 	width: 60%;
 	margin: 4em auto;
