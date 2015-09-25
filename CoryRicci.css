@@ -132,6 +132,7 @@ section.page-content article {
 /*Profile*/
 section#profile div{
 	margin-top: 0;
+
 }
 /*skills*/
 .container img {
@@ -177,4 +178,9 @@ section#contact ul li a img{
 	display: block;
 	width: 80px;
 	margin: auto;
+}
+/* UL List */
+ul
+{
+    list-style-type: none;
 }
